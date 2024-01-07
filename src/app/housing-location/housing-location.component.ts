@@ -7,11 +7,7 @@ import { Input } from '@angular/core';
   selector: 'app-housing-location',
   standalone: true,
   imports: [],
-  template: `
-    <p>
-      housing-location works!
-    </p>
-  `,
+  templateUrl: './housing-location.component.html',
   styleUrl: './housing-location.component.css'
 })
 export class HousingLocationComponent {
